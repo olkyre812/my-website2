@@ -1,0 +1,33 @@
+body{
+  margin: 0; font-family: 'Roboto', sans-serif; color: #333; background-color: #eaeaea;
+}
+.section-main{
+  background-color: #556b2f; /* Задаємо колір */
+  display: flex; /*Вмикаємо Flexbox */
+  flex-direction: column; /* Розташовуємо елементи у стовпчик */
+  align-items: center; /* Центруємо ппо горизонталі */
+}
+.section-main-button{
+  background-color: #8fbc8f;
+  border: none;
+  border-radius: 25px; /* Округлення кутів */
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase; /* Всі літери великі */
+  cursor: pointer; /* Зміна курсору при наведенні */
+  padding: 12px 30px;
+}
+.third-section-books{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /*Дозволяє елементам переносить на новий рядок */
+}
+.third-section-book{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 20px;
+}
+.title {
+	color: #5C6AC4;
+}
